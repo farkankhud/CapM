@@ -1,0 +1,12 @@
+POST   http://localhost:4004/catalog/Interactions_Header
+Content-Type: application/json
+
+{
+"ID": 7,
+"EmplName": "Shibu",
+"Dept": "Sales",
+"Salary": 70000
+}
+
+###
+GET http://localhost:4004/catalog/Interactions_Header
